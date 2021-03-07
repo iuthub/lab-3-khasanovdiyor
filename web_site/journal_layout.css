@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:hover {
+  background-color: yellow;
+}
+
+body {
+  background-image: url("images/background.png");
+}
+
+body > div {
+  margin: 10px 10%;
+  background-color: white;
+  border: 10px solid white;
+}
+
+header {
+  background-color: #a8f0f0;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+header h2 {
+  font-size: 14pt;
+}
+
+.main-div {
+  border: 4px solid #c2e9e9;
+  margin-bottom: 10px;
+  background-color: #e8fbfb;
+  padding: 5px;
+  display: flex;
+}
+
+.main-div p {
+  margin-bottom: 10px;
+}
+
+.image-p {
+  order: 2;
+  align-self: flex-end;
+  margin: 40px 0 0 10px;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  order: 2;
+  width: 80%;
+}
+
+main h2 {
+  padding-bottom: 10px;
+}
+
+h2 span {
+  border-bottom: 2px dashed #009097;
+}
+
+aside div {
+  border: 4px solid #a8f0f0;
+  padding: 10px;
+  background-color: #e8fbfb;
+}
+
+aside h1 {
+  font-size: 32px;
+}
